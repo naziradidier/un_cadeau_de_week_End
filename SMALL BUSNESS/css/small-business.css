@@ -1,0 +1,215 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	background: #fff;
+	color: #666;
+	font-family: "Open Sans", sans-serif;
+}
+
+a{
+	color: #18d26e;
+	text-decoration: none;
+}
+
+p{
+	margin-bottom: 25px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Montserrat", sans-serif;
+	margin-bottom: 20px;
+}
+
+img{
+	width: 100%;
+}
+ul{
+	list-style-type: none;
+}
+@font-face {
+	font-family: quicksand;
+	src: url('../font/Quicksand-Regular.otf');
+}
+body{
+	font-family: quicksand;
+}
+.content-section-nav{
+	overflow: auto;
+}
+.ion-android-hand{
+	float: left;
+	font-size: 30px;
+	
+}
+.ion-android-menu{
+	float: right;
+	font-size: 30px;
+	
+}
+.section-nav, .section-header, .section-grain-the-knowledge, .section-col-3, .section-col-2, .video, .section-our-work, .section-gallery, .section-get-in-touch, .footer {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.content-section-nav, .content-section-header, .content-section-grain-the-knowlegde, .content-section-col-3, .content-section-col-2, .content-video, .content-section-our-work, .content-section-gallery, .content-section-get-in-touch, .content-footer{
+	width: 90%;
+	margin: auto;
+}
+.section-nav{
+	position: absolute;
+	z-index: 1;
+}
+.col-3 {
+	float: left;
+	width: 33.3333333%;
+	padding: 10px;
+}
+.ion-ios-cog, .ion-ios-pie, .ion-ios-speedometer-outline, .ion-cube{
+	width: 100%;
+	font-size: 70px;
+	padding-left: 75px;
+}
+
+.cols-4 {
+	float: left;
+	width: 23%;
+	background-color: green;
+	color: #fff;
+	height: 100px;
+	margin-right: 10px;
+}
+.col-9 {
+	float: left;
+	width: 75%;
+	padding: 10px;
+}
+.content-section-header, .content-section-gallery {
+	overflow: auto;
+}
+.image{
+	float: left;
+	width: 33.3333333%;
+}
+.section-header{
+	background-image: url(images/banner.jpg);
+	padding: 140px 0;
+	background-position: center center;
+	background-size: cover;
+}
+.boutons-click-here-and-read-more,
+ .colonne{
+	overflow: auto;
+}
+.click-here{
+	float: left;
+}
+.read-more{
+	float: right;
+}
+.read{
+	border-radius: 45%;
+	background-color: green;
+	padding: 15px;
+}
+.click{
+	border-radius: 45%;
+	background-color: green;
+	padding: 15px;
+}
+.content-section-grain-the-knowlegde h4, .content-section-our-work h4, .content-section-get-in-touch h4 {
+	margin-left: 60px;
+	text-align: center;
+}
+.content-section-get-in-touch h4 {
+	margin: 25px;
+}
+.content-section-grain-the-knowlegde p, .content-section-our-work p{
+	margin-left: 80px;
+	margin-right: 60px;
+	text-align: center;
+}
+.our-work, .content-section-grain-the-knowlegde{
+	padding: 25px;
+}
+.menu-liste li{
+	display: inline-block;
+	padding: 10px;
+}
+.col-6 li{
+	display: inline;
+	padding: 10px;
+	float: right;
+}
+.cols-3{
+	float: right;
+	width: 33.3333333%;
+	padding: 10px;
+}
+.menu-liste{
+	text-align: center;
+}
+.content-section-col-3{
+	overflow-y: auto;
+}
+.col-3{
+	float: left;
+	width: 33.3333333%;
+	padding: 10px;
+}
+
+.content-section-col-3 .col-3{
+	overflow-y: auto;
+
+}
+.fond-image {
+	height: 300px;
+	background-image: url(images/improve-business.jpg);
+	padding: 150px;
+	background-position: center center;
+}
+.content-section-col-2 {
+	overflow: auto;
+	width: 100%;
+}
+.col-6{
+	float: left;
+	width: 50%;
+}
+.improuve{
+	padding: 20px;
+}
+.read-more{
+	border-radius: 45%;
+	background-color: green;
+	padding: 10px;
+	margin-right: 360px;
+}
+.video{
+	text-align: center;
+	font-family: 10px;
+	padding-top: 80px;
+}
+.content-video{
+	background-position: center center;
+	background-image: url(images/video1.jpg);
+	width: 100%;
+}
+.ion-ios-play{
+	font-size: 50px;
+	color: #fff;
+}
+.content-footer {
+	overflow-y: auto;
+	
+
+}
+.content-footer p{
+	padding: 30px;
+
+}
+.footer{
+	background-color: #000;
+}
